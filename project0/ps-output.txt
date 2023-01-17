@@ -1,0 +1,302 @@
+UID          PID    PPID  C STIME TTY          TIME CMD
+root           1       0  0 12:21 ?        00:00:07 /sbin/init auto noprompt splash
+root           2       0  0 12:21 ?        00:00:00 [kthreadd]
+root           3       2  0 12:21 ?        00:00:00 [rcu_gp]
+root           4       2  0 12:21 ?        00:00:00 [rcu_par_gp]
+root           5       2  0 12:21 ?        00:00:00 [slub_flushwq]
+root           6       2  0 12:21 ?        00:00:00 [netns]
+root           7       2  0 12:21 ?        00:00:05 [kworker/0:0+usb_hub_wq]
+root           8       2  0 12:21 ?        00:00:00 [kworker/0:0H-events_highpri]
+root          10       2  0 12:21 ?        00:00:00 [mm_percpu_wq]
+root          11       2  0 12:21 ?        00:00:00 [rcu_tasks_kthread]
+root          12       2  0 12:21 ?        00:00:00 [rcu_tasks_rude_kthread]
+root          13       2  0 12:21 ?        00:00:00 [rcu_tasks_trace_kthread]
+root          14       2  0 12:21 ?        00:00:00 [ksoftirqd/0]
+root          15       2  0 12:21 ?        00:00:01 [rcu_preempt]
+root          16       2  0 12:21 ?        00:00:00 [migration/0]
+root          17       2  0 12:21 ?        00:00:00 [idle_inject/0]
+root          19       2  0 12:21 ?        00:00:00 [cpuhp/0]
+root          20       2  0 12:21 ?        00:00:00 [cpuhp/1]
+root          21       2  0 12:21 ?        00:00:00 [idle_inject/1]
+root          22       2  0 12:21 ?        00:00:00 [migration/1]
+root          23       2  0 12:21 ?        00:00:00 [ksoftirqd/1]
+root          25       2  0 12:21 ?        00:00:00 [kworker/1:0H-events_highpri]
+root          26       2  0 12:21 ?        00:00:00 [kdevtmpfs]
+root          27       2  0 12:21 ?        00:00:00 [inet_frag_wq]
+root          28       2  0 12:21 ?        00:00:00 [kauditd]
+root          30       2  0 12:21 ?        00:00:00 [khungtaskd]
+root          32       2  0 12:21 ?        00:00:00 [oom_reaper]
+root          34       2  0 12:21 ?        00:00:00 [writeback]
+root          35       2  0 12:21 ?        00:00:00 [kcompactd0]
+root          36       2  0 12:21 ?        00:00:00 [ksmd]
+root          37       2  0 12:21 ?        00:00:00 [khugepaged]
+root          38       2  0 12:21 ?        00:00:00 [kintegrityd]
+root          39       2  0 12:21 ?        00:00:00 [kblockd]
+root          40       2  0 12:21 ?        00:00:00 [blkcg_punt_bio]
+root          41       2  0 12:21 ?        00:00:00 [tpm_dev_wq]
+root          42       2  0 12:21 ?        00:00:00 [ata_sff]
+root          43       2  0 12:21 ?        00:00:00 [md]
+root          44       2  0 12:21 ?        00:00:00 [edac-poller]
+root          45       2  0 12:21 ?        00:00:00 [devfreq_wq]
+root          46       2  0 12:21 ?        00:00:00 [watchdogd]
+root          48       2  0 12:21 ?        00:00:00 [kworker/1:1H-kblockd]
+root          49       2  0 12:21 ?        00:00:07 [kswapd0]
+root          50       2  0 12:21 ?        00:00:00 [ecryptfs-kthread]
+root          56       2  0 12:21 ?        00:00:00 [kthrotld]
+root          62       2  0 12:21 ?        00:00:00 [irq/24-pciehp]
+root          63       2  0 12:21 ?        00:00:00 [irq/25-pciehp]
+root          64       2  0 12:21 ?        00:00:00 [irq/26-pciehp]
+root          65       2  0 12:21 ?        00:00:00 [irq/27-pciehp]
+root          66       2  0 12:21 ?        00:00:00 [irq/28-pciehp]
+root          67       2  0 12:21 ?        00:00:00 [irq/29-pciehp]
+root          68       2  0 12:21 ?        00:00:00 [irq/30-pciehp]
+root          69       2  0 12:21 ?        00:00:00 [irq/31-pciehp]
+root          70       2  0 12:21 ?        00:00:00 [irq/32-pciehp]
+root          71       2  0 12:21 ?        00:00:00 [irq/33-pciehp]
+root          72       2  0 12:21 ?        00:00:00 [irq/34-pciehp]
+root          73       2  0 12:21 ?        00:00:00 [irq/35-pciehp]
+root          74       2  0 12:21 ?        00:00:00 [irq/36-pciehp]
+root          75       2  0 12:21 ?        00:00:00 [irq/37-pciehp]
+root          76       2  0 12:21 ?        00:00:00 [irq/38-pciehp]
+root          77       2  0 12:21 ?        00:00:00 [irq/39-pciehp]
+root          78       2  0 12:21 ?        00:00:00 [irq/40-pciehp]
+root          79       2  0 12:21 ?        00:00:00 [irq/41-pciehp]
+root          80       2  0 12:21 ?        00:00:00 [irq/42-pciehp]
+root          81       2  0 12:21 ?        00:00:00 [irq/43-pciehp]
+root          82       2  0 12:21 ?        00:00:00 [irq/44-pciehp]
+root          83       2  0 12:21 ?        00:00:00 [irq/45-pciehp]
+root          84       2  0 12:21 ?        00:00:00 [irq/46-pciehp]
+root          85       2  0 12:21 ?        00:00:00 [irq/47-pciehp]
+root          86       2  0 12:21 ?        00:00:00 [irq/48-pciehp]
+root          87       2  0 12:21 ?        00:00:00 [irq/49-pciehp]
+root          88       2  0 12:21 ?        00:00:00 [irq/50-pciehp]
+root          89       2  0 12:21 ?        00:00:00 [irq/51-pciehp]
+root          90       2  0 12:21 ?        00:00:00 [irq/52-pciehp]
+root          91       2  0 12:21 ?        00:00:00 [irq/53-pciehp]
+root          92       2  0 12:21 ?        00:00:00 [irq/54-pciehp]
+root          93       2  0 12:21 ?        00:00:00 [irq/55-pciehp]
+root          94       2  0 12:21 ?        00:00:00 [acpi_thermal_pm]
+root          95       2  0 12:21 ?        00:00:00 [xenbus_probe]
+root          96       2  0 12:21 ?        00:00:00 [scsi_eh_0]
+root          97       2  0 12:21 ?        00:00:00 [scsi_tmf_0]
+root          98       2  0 12:21 ?        00:00:00 [scsi_eh_1]
+root          99       2  0 12:21 ?        00:00:00 [scsi_tmf_1]
+root         100       2  0 12:21 ?        00:00:00 [vfio-irqfd-clea]
+root         102       2  0 12:21 ?        00:00:00 [mld]
+root         103       2  0 12:21 ?        00:00:00 [ipv6_addrconf]
+root         109       2  0 12:21 ?        00:00:00 [kstrp]
+root         115       2  0 12:21 ?        00:00:00 [zswap-shrink]
+root         116       2  0 12:21 ?        00:00:00 [kworker/u257:0-hci0]
+root         162       2  0 12:21 ?        00:00:00 [charger_manager]
+root         206       2  0 12:21 ?        00:00:00 [kworker/0:1H-kblockd]
+root         208       2  0 12:21 ?        00:00:00 [mpt_poll_0]
+root         209       2  0 12:21 ?        00:00:00 [mpt/0]
+root         210       2  0 12:21 ?        00:00:00 [scsi_eh_2]
+root         211       2  0 12:21 ?        00:00:00 [scsi_tmf_2]
+root         213       2  0 12:21 ?        00:00:00 [scsi_eh_3]
+root         214       2  0 12:21 ?        00:00:00 [scsi_tmf_3]
+root         215       2  0 12:21 ?        00:00:00 [scsi_eh_4]
+root         216       2  0 12:21 ?        00:00:00 [scsi_tmf_4]
+root         217       2  0 12:21 ?        00:00:00 [scsi_eh_5]
+root         218       2  0 12:21 ?        00:00:00 [scsi_tmf_5]
+root         219       2  0 12:21 ?        00:00:00 [scsi_eh_6]
+root         220       2  0 12:21 ?        00:00:00 [scsi_tmf_6]
+root         221       2  0 12:21 ?        00:00:00 [scsi_eh_7]
+root         222       2  0 12:21 ?        00:00:00 [scsi_tmf_7]
+root         223       2  0 12:21 ?        00:00:00 [scsi_eh_8]
+root         224       2  0 12:21 ?        00:00:00 [scsi_tmf_8]
+root         225       2  0 12:21 ?        00:00:00 [scsi_eh_9]
+root         226       2  0 12:21 ?        00:00:00 [scsi_tmf_9]
+root         227       2  0 12:21 ?        00:00:00 [scsi_eh_10]
+root         228       2  0 12:21 ?        00:00:00 [scsi_tmf_10]
+root         229       2  0 12:21 ?        00:00:00 [scsi_eh_11]
+root         230       2  0 12:21 ?        00:00:00 [scsi_tmf_11]
+root         231       2  0 12:21 ?        00:00:00 [scsi_eh_12]
+root         232       2  0 12:21 ?        00:00:00 [scsi_tmf_12]
+root         233       2  0 12:21 ?        00:00:00 [scsi_eh_13]
+root         234       2  0 12:21 ?        00:00:00 [scsi_tmf_13]
+root         235       2  0 12:21 ?        00:00:00 [scsi_eh_14]
+root         236       2  0 12:21 ?        00:00:00 [scsi_tmf_14]
+root         237       2  0 12:21 ?        00:00:00 [scsi_eh_15]
+root         238       2  0 12:21 ?        00:00:00 [scsi_tmf_15]
+root         239       2  0 12:21 ?        00:00:00 [scsi_eh_16]
+root         240       2  0 12:21 ?        00:00:00 [scsi_tmf_16]
+root         241       2  0 12:21 ?        00:00:00 [scsi_eh_17]
+root         242       2  0 12:21 ?        00:00:00 [scsi_tmf_17]
+root         243       2  0 12:21 ?        00:00:00 [scsi_eh_18]
+root         244       2  0 12:21 ?        00:00:00 [scsi_tmf_18]
+root         245       2  0 12:21 ?        00:00:00 [scsi_eh_19]
+root         246       2  0 12:21 ?        00:00:00 [scsi_tmf_19]
+root         247       2  0 12:21 ?        00:00:00 [scsi_eh_20]
+root         248       2  0 12:21 ?        00:00:00 [scsi_tmf_20]
+root         249       2  0 12:21 ?        00:00:00 [scsi_eh_21]
+root         250       2  0 12:21 ?        00:00:00 [scsi_tmf_21]
+root         251       2  0 12:21 ?        00:00:00 [scsi_eh_22]
+root         252       2  0 12:21 ?        00:00:00 [scsi_tmf_22]
+root         253       2  0 12:21 ?        00:00:00 [scsi_eh_23]
+root         254       2  0 12:21 ?        00:00:00 [scsi_tmf_23]
+root         255       2  0 12:21 ?        00:00:00 [scsi_eh_24]
+root         256       2  0 12:21 ?        00:00:00 [scsi_tmf_24]
+root         257       2  0 12:21 ?        00:00:00 [scsi_eh_25]
+root         258       2  0 12:21 ?        00:00:00 [scsi_tmf_25]
+root         259       2  0 12:21 ?        00:00:00 [scsi_eh_26]
+root         260       2  0 12:21 ?        00:00:00 [scsi_tmf_26]
+root         261       2  0 12:21 ?        00:00:00 [scsi_eh_27]
+root         262       2  0 12:21 ?        00:00:00 [scsi_tmf_27]
+root         263       2  0 12:21 ?        00:00:00 [scsi_eh_28]
+root         264       2  0 12:21 ?        00:00:00 [scsi_tmf_28]
+root         265       2  0 12:21 ?        00:00:00 [scsi_eh_29]
+root         266       2  0 12:21 ?        00:00:00 [scsi_tmf_29]
+root         267       2  0 12:21 ?        00:00:00 [scsi_eh_30]
+root         268       2  0 12:21 ?        00:00:00 [scsi_tmf_30]
+root         269       2  0 12:21 ?        00:00:00 [scsi_eh_31]
+root         270       2  0 12:21 ?        00:00:00 [scsi_tmf_31]
+root         292       2  0 12:21 ?        00:00:01 [kworker/u256:26-events_unbound]
+root         293       2  0 12:21 ?        00:00:01 [kworker/u256:27-events_power_efficient]
+root         295       2  0 12:21 ?        00:00:02 [kworker/u256:29-events_power_efficient]
+root         298       2  0 12:21 ?        00:00:00 [scsi_eh_32]
+root         299       2  0 12:21 ?        00:00:00 [scsi_tmf_32]
+root         324       2  0 12:21 ?        00:00:01 [jbd2/sda3-8]
+root         325       2  0 12:21 ?        00:00:00 [ext4-rsv-conver]
+root         364       1  0 12:21 ?        00:00:00 /lib/systemd/systemd-journald
+root         396       1  0 12:21 ?        00:00:00 vmware-vmblock-fuse /run/vmblock-fuse -o rw,subtype=vmware-vmblock,default_permissions,allow_other,dev,suid
+root         408       1  0 12:21 ?        00:00:00 /lib/systemd/systemd-udevd
+root         410       2  0 12:21 ?        00:00:01 [irq/16-vmwgfx]
+root         411       2  0 12:21 ?        00:00:00 [card0-crtc0]
+root         413       2  0 12:21 ?        00:00:00 [card0-crtc1]
+root         414       2  0 12:21 ?        00:00:00 [card0-crtc2]
+root         415       2  0 12:21 ?        00:00:00 [card0-crtc3]
+root         416       2  0 12:21 ?        00:00:00 [card0-crtc4]
+root         425       2  0 12:21 ?        00:00:00 [card0-crtc5]
+root         438       2  0 12:21 ?        00:00:00 [card0-crtc6]
+root         439       2  0 12:21 ?        00:00:00 [card0-crtc7]
+systemd+     509       1  0 12:21 ?        00:00:02 /lib/systemd/systemd-oomd
+systemd+     512       1  0 12:21 ?        00:00:00 /lib/systemd/systemd-resolved
+systemd+     513       1  0 12:21 ?        00:00:00 /lib/systemd/systemd-timesyncd
+root         528       1  0 12:21 ?        00:00:00 /usr/bin/VGAuthService
+root         535       1  0 12:21 ?        00:00:03 /usr/bin/vmtoolsd
+root         564       1  0 12:21 ?        00:00:00 /usr/libexec/accounts-daemon
+avahi        568       1  0 12:21 ?        00:00:00 avahi-daemon: running [elipinals12-virtual-machine.local]
+root         571       1  0 12:21 ?        00:00:00 /usr/sbin/cron -f -P
+message+     572       1  0 12:21 ?        00:00:02 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         593       1  0 12:21 ?        00:00:00 /usr/sbin/irqbalance --foreground
+root         594       1  0 12:21 ?        00:00:00 /usr/libexec/polkitd --no-debug
+root         597       1  0 12:21 ?        00:00:00 /usr/libexec/power-profiles-daemon
+syslog       598       1  0 12:21 ?        00:00:00 /usr/sbin/rsyslogd -n -iNONE
+root         611       1  0 12:21 ?        00:00:00 /usr/libexec/switcheroo-control
+root         615       1  0 12:21 ?        00:00:00 /lib/systemd/systemd-logind
+root         621       1  0 12:21 ?        00:00:00 /usr/libexec/udisks2/udisksd
+avahi        639     568  0 12:21 ?        00:00:00 avahi-daemon: chroot helper
+root         654       1  0 12:21 ?        00:00:00 /usr/sbin/ModemManager
+root         659       1  0 12:21 ?        00:00:00 /usr/sbin/NetworkManager --no-daemon
+root         667       1  0 12:21 ?        00:00:00 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+root         680       1  0 12:21 ?        00:00:00 /usr/sbin/cupsd -l
+root         688       1  0 12:21 ?        00:00:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         704       1  0 12:21 ?        00:00:00 /usr/sbin/gdm3
+root         734       2  0 12:21 ?        00:00:00 [kworker/u257:1-hci0]
+root         782       2  0 12:21 ?        00:00:00 [cryptd]
+root         783       1  0 12:21 ?        00:00:00 /usr/lib/bluetooth/bluetoothd
+root         801     704  0 12:21 ?        00:00:00 gdm-session-worker [pam/gdm-autologin]
+elipina+     837       1  0 12:21 ?        00:00:01 /lib/systemd/systemd --user
+elipina+     839     837  0 12:21 ?        00:00:00 (sd-pam)
+elipina+     920     837  0 12:21 ?        00:00:02 /usr/bin/pipewire
+elipina+     922     837  0 12:21 ?        00:00:01 /usr/bin/wireplumber
+elipina+     923     837  0 12:21 ?        00:00:00 /usr/bin/pipewire-pulse
+elipina+     924     837  0 12:21 ?        00:00:00 /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+elipina+     926     837  0 12:21 ?        00:00:01 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+rtkit        931       1  0 12:21 ?        00:00:00 /usr/libexec/rtkit-daemon
+root         937       1  0 12:21 ?        00:00:00 /usr/sbin/cups-browsed
+elipina+     942     801  0 12:21 tty2     00:00:00 /usr/libexec/gdm-wayland-session env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --session=ubuntu
+elipina+     947     942  0 12:21 tty2     00:00:00 /usr/libexec/gnome-session-binary --session=ubuntu
+kernoops     954       1  0 12:21 ?        00:00:00 /usr/sbin/kerneloops --test
+kernoops     960       1  0 12:21 ?        00:00:00 /usr/sbin/kerneloops
+elipina+     980     837  0 12:21 ?        00:00:00 /usr/libexec/gvfsd
+elipina+    1009     837  0 12:21 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+elipina+    1055     837  0 12:21 ?        00:00:00 /usr/libexec/gcr-ssh-agent /run/user/1000/gcr
+elipina+    1057     837  0 12:21 ?        00:00:00 /usr/libexec/gnome-session-ctl --monitor
+elipina+    1061     837  0 12:21 ?        00:00:00 ssh-agent -D -a /run/user/1000/openssh_agent
+elipina+    1086     837  0 12:21 ?        00:00:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+elipina+    1100    1086  0 12:21 ?        00:00:00 /usr/libexec/at-spi-bus-launcher --launch-immediately
+elipina+    1107     837  2 12:21 ?        00:00:44 /usr/bin/gnome-shell
+elipina+    1110    1100  0 12:21 ?        00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus
+elipina+    1173     837  0 12:21 ?        00:00:00 /usr/libexec/xdg-permission-store
+elipina+    1178     837  0 12:21 ?        00:00:00 /usr/libexec/gnome-shell-calendar-server
+elipina+    1184     837  0 12:21 ?        00:00:00 /usr/libexec/evolution-source-registry
+elipina+    1188     837  0 12:21 ?        00:00:00 /usr/libexec/dconf-service
+root        1195       1  0 12:21 ?        00:00:00 /usr/libexec/upowerd
+elipina+    1204     837  0 12:21 ?        00:00:00 /usr/libexec/goa-daemon
+elipina+    1208     837  0 12:21 ?        00:00:00 /usr/libexec/evolution-calendar-factory
+elipina+    1222     837  0 12:21 ?        00:00:00 /usr/libexec/goa-identity-service
+elipina+    1225     837  0 12:21 ?        00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
+elipina+    1235     837  0 12:21 ?        00:00:00 /usr/libexec/gvfs-afc-volume-monitor
+elipina+    1241     837  0 12:21 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+elipina+    1245     837  0 12:21 ?        00:00:00 /usr/libexec/evolution-addressbook-factory
+elipina+    1248     837  0 12:21 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+elipina+    1254     837  0 12:21 ?        00:00:00 /usr/libexec/gvfsd-metadata
+elipina+    1258     837  0 12:21 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+root        1273       1  0 12:21 ?        00:00:00 /usr/libexec/packagekitd
+elipina+    1280     980  0 12:21 ?        00:00:00 /usr/libexec/gvfsd-trash --spawner :1.7 /org/gtk/gvfs/exec_spaw/0
+elipina+    1286     837  0 12:21 ?        00:00:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+elipina+    1288     837  0 12:21 ?        00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+colord      1289       1  0 12:21 ?        00:00:00 /usr/libexec/colord
+elipina+    1301     837  0 12:21 ?        00:00:00 sh -c /usr/bin/ibus-daemon --panel disable $([ "$XDG_SESSION_TYPE" = "x11" ] && echo "--xim")
+elipina+    1303     837  0 12:21 ?        00:00:00 /usr/libexec/gsd-a11y-settings
+elipina+    1305    1301  0 12:21 ?        00:00:03 /usr/bin/ibus-daemon --panel disable
+elipina+    1306     837  0 12:21 ?        00:00:00 /usr/libexec/gsd-color
+elipina+    1310     837  0 12:21 ?        00:00:00 /usr/libexec/gsd-datetime
+elipina+    1317     837  0 12:21 ?        00:00:00 /usr/libexec/gsd-housekeeping
+elipina+    1330     837  0 12:21 ?        00:00:00 /usr/libexec/gsd-keyboard
+elipina+    1331     837  0 12:21 ?        00:00:00 /usr/libexec/gsd-media-keys
+elipina+    1342    1086  0 12:21 ?        00:00:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+elipina+    1343     837  0 12:21 ?        00:00:00 /usr/libexec/gsd-power
+elipina+    1344     837  0 12:21 ?        00:00:00 /usr/libexec/gsd-print-notifications
+elipina+    1348     837  0 12:21 ?        00:00:00 /usr/libexec/gsd-rfkill
+elipina+    1352     837  0 12:21 ?        00:00:00 /usr/libexec/gsd-screensaver-proxy
+elipina+    1358     837  0 12:21 ?        00:00:00 /usr/libexec/gsd-sharing
+elipina+    1363     837  0 12:21 ?        00:00:00 /usr/libexec/gsd-smartcard
+elipina+    1370     837  0 12:21 ?        00:00:00 /usr/libexec/gsd-sound
+elipina+    1380     837  0 12:21 ?        00:00:00 /usr/libexec/gsd-wacom
+elipina+    1402     837  0 12:21 ?        00:00:03 /usr/bin/vmtoolsd -n vmusr --blockFd 3 --uinputFd 4
+elipina+    1424    1086  0 12:21 ?        00:00:00 /usr/libexec/gsd-disk-utility-notify
+elipina+    1461     837  0 12:21 ?        00:00:00 /usr/libexec/gsd-printer
+elipina+    1474    1305  0 12:21 ?        00:00:00 /usr/libexec/ibus-dconf
+elipina+    1476    1305  0 12:21 ?        00:00:01 /usr/libexec/ibus-extension-gtk3
+elipina+    1480     837  0 12:21 ?        00:00:00 /usr/libexec/ibus-portal
+elipina+    1557    1305  0 12:21 ?        00:00:01 /usr/libexec/ibus-engine-simple
+elipina+    1585     837  0 12:21 ?        00:00:02 /usr/libexec/gnome-initial-setup --existing-user
+elipina+    1586     837  0 12:21 ?        00:00:02 /usr/libexec/tracker-miner-fs-3
+elipina+    1614     837  0 12:21 ?        00:00:00 /usr/libexec/xdg-desktop-portal
+elipina+    1622     837  0 12:21 ?        00:00:00 /usr/libexec/xdg-document-portal
+root        1627    1622  0 12:21 ?        00:00:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+elipina+    1630     837  0 12:21 ?        00:00:00 /usr/libexec/xdg-desktop-portal-gnome
+elipina+    1659    1107  0 12:21 ?        00:00:01 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.L2J1Y1 -listen 4 -listen 5 -displayfd 6 -initfd 7
+elipina+    1667     837  0 12:21 ?        00:00:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.ScreenSaver
+elipina+    1717     837  0 12:21 ?        00:00:00 /usr/libexec/gsd-xsettings
+elipina+    1720     837  0 12:21 ?        00:00:00 /usr/libexec/xdg-desktop-portal-gtk
+elipina+    1763     837  0 12:21 ?        00:00:00 /usr/libexec/ibus-x11
+elipina+    1960     837  0 12:21 ?        00:00:00 /snap/snapd-desktop-integration/14/bin/snapd-desktop-integration
+elipina+    2168     837  0 12:22 ?        00:00:00 /usr/bin/gnome-calendar --gapplication-service
+elipina+    2325     837  0 12:22 ?        00:00:00 /usr/bin/seahorse --gapplication-service
+elipina+    2355    1107  4 12:22 ?        00:01:09 /snap/firefox/1969/usr/lib/firefox/firefox
+elipina+    2553    2355  0 12:22 ?        00:00:00 /snap/firefox/1969/usr/lib/firefox/firefox -contentproc -parentBuildID 20221014183137 -prefsLen 18041 -prefMapSize 224841 -appDir /snap/firefox/1969/usr/lib/firefox/browser {624e8090-94aa-4c3c-b016-90fa69c6bd92} 2355 true socket
+elipina+    2583    2355  0 12:22 ?        00:00:00 /snap/firefox/1969/usr/lib/firefox/firefox -contentproc -childID 1 -isForBrowser -prefsLen 20291 -prefMapSize 224841 -jsInitLen 246704 -parentBuildID 20221014183137 -appDir /snap/firefox/1969/usr/lib/firefox/browser {a66edb9d-0c12-4867-a48e-3a7ff04c8516} 2355 true tab
+elipina+    2610    2355  0 12:22 ?        00:00:02 /snap/firefox/1969/usr/lib/firefox/firefox -contentproc -childID 2 -isForBrowser -prefsLen 21480 -prefMapSize 224841 -jsInitLen 246704 -parentBuildID 20221014183137 -appDir /snap/firefox/1969/usr/lib/firefox/browser {16949a70-d063-4685-aef8-81ec854a6ba7} 2355 true tab
+elipina+    2641     837  0 12:22 ?        00:00:00 /usr/bin/snap userd
+elipina+    2649    2355  0 12:22 ?        00:00:00 /snap/firefox/1969/usr/lib/firefox/firefox -contentproc -childID 3 -isForBrowser -prefsLen 22397 -prefMapSize 224841 -jsInitLen 246704 -parentBuildID 20221014183137 -appDir /snap/firefox/1969/usr/lib/firefox/browser {e808c14a-e243-4469-96c0-4cabacdeb185} 2355 true tab
+elipina+    2720    2355  3 12:22 ?        00:00:45 /snap/firefox/1969/usr/lib/firefox/firefox -contentproc -childID 4 -isForBrowser -prefsLen 28979 -prefMapSize 224841 -jsInitLen 246704 -parentBuildID 20221014183137 -appDir /snap/firefox/1969/usr/lib/firefox/browser {318c1e2f-8c5c-472f-9380-e1d39471bcb5} 2355 true tab
+elipina+    2734    1086  0 12:22 ?        00:00:00 update-notifier
+elipina+    2761    2355  0 12:22 ?        00:00:00 /snap/firefox/1969/usr/lib/firefox/firefox -contentproc -childID 5 -isForBrowser -prefsLen 29014 -prefMapSize 224841 -jsInitLen 246704 -parentBuildID 20221014183137 -appDir /snap/firefox/1969/usr/lib/firefox/browser {c398e97c-d404-46b6-9d1f-8802843aebb6} 2355 true tab
+elipina+    2766    2355  0 12:22 ?        00:00:00 /snap/firefox/1969/usr/lib/firefox/firefox -contentproc -childID 6 -isForBrowser -prefsLen 29014 -prefMapSize 224841 -jsInitLen 246704 -parentBuildID 20221014183137 -appDir /snap/firefox/1969/usr/lib/firefox/browser {5b8814ec-e4d9-4fe0-8a86-ff4efe323fed} 2355 true tab
+elipina+    2967    2355  0 12:22 ?        00:00:00 /snap/firefox/1969/usr/lib/firefox/firefox -contentproc -childID 7 -isForBrowser -prefsLen 29709 -prefMapSize 224841 -jsInitLen 246704 -parentBuildID 20221014183137 -appDir /snap/firefox/1969/usr/lib/firefox/browser {fcb373e0-eb23-4ba6-bc77-9dc3aeea0dc9} 2355 true tab
+elipina+    2993     837  0 12:22 ?        00:00:00 /usr/bin/python3 /usr/bin/gnome-terminal --wait
+elipina+    2996    2993  0 12:22 ?        00:00:00 /usr/bin/gnome-terminal.real --wait
+elipina+    3001     837  0 12:22 ?        00:00:08 /usr/libexec/gnome-terminal-server
+elipina+    3019    3001  0 12:22 pts/0    00:00:00 bash
+root       21580       1  0 12:26 ?        00:00:02 /usr/lib/snapd/snapd
+elipina+   28675    1107  0 12:31 ?        00:00:01 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com -M 0 -D 0:0:800:600:1:27:0:0:0:0
+root       28727       2  0 12:32 ?        00:00:01 [kworker/1:2-events]
+root       28730       2  0 12:32 ?        00:00:00 [kworker/1:3-events]
+root       28947       2  0 12:36 ?        00:00:00 [kworker/0:1-events]
+root       29021       2  0 12:42 ?        00:00:00 [kworker/0:2-events]
+elipina+   29033     924  0 12:43 ?        00:00:00 /usr/bin/ssh-agent -D -a /run/user/1000/keyring/.ssh
+elipina+   29500    3019  0 12:47 pts/0    00:00:00 ps -ef
