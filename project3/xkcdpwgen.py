@@ -5,10 +5,6 @@
 import argparse
 import random
 
-# set available characters
-numbers = (["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"])
-symbols = (["~", "!", "@", "#", "$", "%", "^", "&", "*", ".", ":", ";"])
-
 # PRINT THE PRETTY HELP MESSAGE
 parsedArgs = argparse.ArgumentParser()
 parsedArgs.add_argument('-w', '--words', type=int, default=4,
@@ -23,6 +19,10 @@ args = parsedArgs.parse_args()
 
 # open, read, and split input file (words.txt)
 words = open('words.txt').read().splitlines()
+
+# set available characters
+numbers = (["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"])
+symbols = (["~", "!", "@", "#", "$", "%", "^", "&", "*", ".", ":", ";"])
 
 # initialize the password array
 currentPass = []
@@ -47,4 +47,4 @@ for i in range(args.symbols):
 random.shuffle(currentPass)
 
 # print the final password
-print(currentPass)
+print("".join(currentPass))
