@@ -6,8 +6,8 @@ import argparse
 import random
 
 # set available characters
-numbs = (["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"])
-symbs = (["~", "!", "@", "#", "$", "%", "^", "&", "*", ".", ":", ";"])
+numbers = (["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"])
+symbols = (["~", "!", "@", "#", "$", "%", "^", "&", "*", ".", ":", ";"])
 
 # PRINT THE PRETTY HELP MESSAGE
 parsedArgs = argparse.ArgumentParser()
@@ -36,12 +36,12 @@ for i in range(args.words):
         currentPass.append(random.choice(words))
 
 # loop through arg numbers
-for i in range(args.numbs):
-    currentPass.append(random.choice(numbs))
+for i in range(args.numbers):
+    currentPass.append(random.choice(numbers))
 
 # loop through arg symbols
-for i in range(args.symbs):
-    currentPass.append(random.choice(symbs))
+for i in range(args.symbols):
+    currentPass.append(random.choice(symbols))
 
 # shuffle the password elements
 random.shuffle(currentPass)
