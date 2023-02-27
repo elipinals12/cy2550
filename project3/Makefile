@@ -22,3 +22,8 @@ clean:
 # Targets for testing
 test:
 	$(PYTHON_BIN)/nosetests -v --with-coverage --cover-package=$(PROJECT) --cover-inclusive --cover-erase tests
+
+# Publish to gh-pages
+# Make sure to change the prefix to the subdirectory of your docs build
+publish:
+	git subtree push --prefix=docs origin gh-pages
