@@ -45,4 +45,4 @@ for i in range(args.syms):
 random.shuffle(currentPass)
 
 # print the final password
-print("".join(currentPass))
+print(currentPass)
