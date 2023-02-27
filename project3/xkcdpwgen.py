@@ -50,6 +50,6 @@ random.shuffle(currentPass)
 # print the final password
 currentStringPass = ""
 for i in currentPass:
-    currentStringPass += i
+    currentStringPass = currentStringPass + i
 
 print(currentStringPass)
