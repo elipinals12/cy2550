@@ -3,7 +3,7 @@
 #include <time.h>
 #include <string.h>
 
-#define WORDLIST_SIZE 2048     // maximum number of words in the word list
+#define WORDLIST_SIZE 32768     // maximum number of words in the word list
 #define MAX_PASSWORD_LENGTH 64 // maximum length of the generated password
 
 // void function to print full help message
@@ -24,7 +24,8 @@ void print_help()
     printf("                          (default=0)\n");
     printf("    -s SYMBOLS, --symbols SYMBOLS\n");
     printf("                          insert SYMBOLS random symbols in the password\n");
-    printf("                          (default=0)");
+    printf("                          (default=0)\n");
+    return;
 }
 
 // function to generate a random integer between min and max (inclusive)
@@ -37,7 +38,7 @@ int generate_random_int(int min, int max)
 int read_wordlist(char **wordlist, const char *filename)
 {
     FILE *file;
-    char word[256];
+    char word[WORDLIST_SIZE];
     int i = 0;
 
     file = fopen(filename, "r");
@@ -46,7 +47,7 @@ int read_wordlist(char **wordlist, const char *filename)
         return -1; // error opening file
     }
 
-    while (fgets(word, 256, file))
+    while (fgets(word, WORDLIST_SIZE, file))
     {
         if (i >= WORDLIST_SIZE)
         {
@@ -80,6 +81,7 @@ void generate_password(char *password, char **wordlist, int wordlist_size, int n
 
 int main(int argc, char *argv[])
 {
+    printf("argc: %d", argc);
     char *wordlist[WORDLIST_SIZE];          // initialize the word list
     char password[MAX_PASSWORD_LENGTH + 1]; // initialize the password buffer
     int num_words = 4;                      // default number of words in password
@@ -96,9 +98,9 @@ int main(int argc, char *argv[])
             print_help();
             return 0;
         }
-        else if (argc > 1 + i)
+        else if (argc > 1)
         {
-            if (strcmp(argv[i], "-w") == 0 || strcmp(argv[i], "-w") == 0) // words option
+            if (strcmp(argv[i], "-w") == 0 || strcmp(argv[i], "--words") == 0) // words option
             {
                 num_words = atoi(argv[i + 1]); // set number of words in password
                 if (num_words < 1)
