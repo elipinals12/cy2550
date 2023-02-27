@@ -48,8 +48,4 @@ for i in range(args.symbols):
 random.shuffle(currentPass)
 
 # print the final password
-currentStringPass = ""
-for i in currentPass:
-    currentStringPass = currentStringPass + i
-
-print(currentStringPass)
+print("".join(currentPass))
