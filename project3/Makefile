@@ -1,10 +1,24 @@
-CC=gcc
-CFLAGS=-Wall -Wextra -pedantic -std=c99
+# Shell to use with Make
+SHELL := /bin/bash
 
-xkcdpwgen: xkcdpwgen.c
-	$(CC) $(CFLAGS) -o xkcdpwgen xkcdpwgen.c
+# Set important Paths
+PROJECT := # Set to your project name
+LOCALPATH := $(CURDIR)/$(PROJECT)
+PYTHONPATH := $(LOCALPATH)/
+PYTHON_BIN := $(VIRTUAL_ENV)/bin
 
-.PHONY: clean
+# Export targets not associated with files
+.PHONY: test coverage pip virtualenv clean publish
 
+# Clean build files
 clean:
-	rm -f xkcdpwgen
+	find . -name "*.pyc" -print0 | xargs -0 rm -rf
+	-rm -rf htmlcov
+	-rm -rf .coverage
+	-rm -rf build
+	-rm -rf dist
+	-rm -rf $(PROJECT).egg-info
+
+# Targets for testing
+test:
+	$(PYTHON_BIN)/nosetests -v --with-coverage --cover-package=$(PROJECT) --cover-inclusive --cover-erase tests
