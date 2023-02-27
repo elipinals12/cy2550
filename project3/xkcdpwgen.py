@@ -1,11 +1,13 @@
 #!/usr/bin/env python3
 
+# Eli Pinals kxkcd password gen
+
 import argparse
 import random
 
 # set available characters
-nums = (["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"])
-syms = (["~", "!", "@", "#", "$", "%", "^", "&", "*", ".", ":", ";"])
+numbs = (["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"])
+symbs = (["~", "!", "@", "#", "$", "%", "^", "&", "*", ".", ":", ";"])
 
 # PRINT THE PRETTY HELP MESSAGE
 parsedArgs = argparse.ArgumentParser()
@@ -34,12 +36,12 @@ for i in range(args.words):
         currentPass.append(random.choice(words))
 
 # loop through arg numbers
-for i in range(args.nums):
-    currentPass.append(random.choice(nums))
+for i in range(args.numbs):
+    currentPass.append(random.choice(numbs))
 
 # loop through arg symbols
-for i in range(args.syms):
-    currentPass.append(random.choice(syms))
+for i in range(args.symbs):
+    currentPass.append(random.choice(symbs))
 
 # shuffle the password elements
 random.shuffle(currentPass)
