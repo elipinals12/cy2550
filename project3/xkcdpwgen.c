@@ -98,7 +98,7 @@ int main(int argc, char *argv[])
             print_help();
             return 0;
         }
-        else if (argc > 1)
+        else if (argc > 2)
         {
             if (strcmp(argv[i], "-w") == 0 || strcmp(argv[i], "--words") == 0) // words option
             {
