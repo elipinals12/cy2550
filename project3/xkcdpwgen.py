@@ -4,6 +4,7 @@
 
 import argparse
 import random
+import sys
 
 # PRINT THE PRETTY HELP MESSAGE
 parsedArgs = argparse.ArgumentParser()
