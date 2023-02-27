@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/ python3
 
 # Eli Pinals kxkcd password gen
 
@@ -47,4 +47,8 @@ for i in range(args.symbols):
 random.shuffle(currentPass)
 
 # print the final password
-print("".join(currentPass))
+currentStringPass = ""
+for i in currentPass:
+    currentStringPass += i
+
+print(currentStringPass)
