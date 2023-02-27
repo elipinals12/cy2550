@@ -1,4 +1,10 @@
 # Makefile for xkcdpwgen
+# couldn't get this to work
+# now I just run the following to compile
+
+# chmod +x xkcdpwgen.py
+# mv xkcdpwgen.py xkcdpwgen
+
 
 # set the script name, can be custom
 SCRIPT_NAME = xkcdpwgen
@@ -18,3 +24,4 @@ clean:
     rm -f $(SCRIPT_NAME)
 
 .PHONY: all clean
+
