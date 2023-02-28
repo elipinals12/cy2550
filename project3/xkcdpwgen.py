@@ -49,3 +49,4 @@ random.shuffle(currentPass)
 
 # print the final password
 print("".join(currentPass))
+# (joined by "", nothing in between)
