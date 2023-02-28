@@ -1,9 +1,22 @@
 #!/usr/bin/python3
 
 # Eli Pinals xkcd password gen
+# CY2550
+# 2/27/2023
 
 import argparse
 import random
+
+# set available characters
+numbers = (["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"])
+symbols = (["(", ")", "[", "]", "~", "!", "@", "#", "$",
+           "%", "^", "&", "*", ".", ":", ";", "+", "=", "-"])
+
+# initialize the password array
+currentPass = []
+
+# open, read, and split input file (words.txt)
+words = open('words.txt').read().splitlines()
 
 # PRINT THE PRETTY HELP MESSAGE
 parsedArgs = argparse.ArgumentParser()
@@ -17,16 +30,6 @@ parsedArgs.add_argument('-s', '--symbols', type=int, default=0,
                         help='insert SYMBOLS random symbols in the password (default=0)')
 args = parsedArgs.parse_args()
 
-# open, read, and split input file (words.txt)
-words = open('words.txt').read().splitlines()
-
-# set available characters
-numbers = (["1", "2", "3", "4", "5", "6", "7", "8", "9", "0"])
-symbols = (["(", ")", "[", "]", "~", "!", "@", "#", "$",
-           "%", "^", "&", "*", ".", ":", ";", "+", "=", "-"])
-
-# initialize the password array
-currentPass = []
 
 # loop through arg words
 for i in range(args.words):
@@ -36,6 +39,7 @@ for i in range(args.words):
     else:
         currentPass.append(random.choice(words))
 
+
 # loop through arg numbers
 for i in range(args.numbers):
     currentPass.append(random.choice(numbers))
@@ -44,8 +48,12 @@ for i in range(args.numbers):
 for i in range(args.symbols):
     currentPass.append(random.choice(symbols))
 
+
 # shuffle the password elements
 random.shuffle(currentPass)
 
+# set the final password
+finalPass = "".join(currentPass)
+
 # print the final password
-print("".join(currentPass))
+print(finalPass)
