@@ -1,0 +1,25 @@
+# project 5 - Eli Pinals
+
+# Last Modified: Tue Apr  4 01:53:13 2023
+abi <abi/3.0>,
+
+include <tunables/global>
+
+/home/eli/cy/p2 {
+  include <abstractions/base>
+
+  /home/eli/cy/p2 mr,
+  /tmp/** rw,
+  /home/eli/.project2/config rw,
+  /var/log/syslog rw,
+  /etc/fstab rw,
+  /proc/version rw,
+  /proc/buddyinfo rw,
+  /etc/crontab rw,
+  /etc/resolv.conf rw,
+  /run/systemd/resolve/stub-resolv.conf rw,
+  /etc/passwd rw,
+  /etc/hosts rw,
+  /home/eli/cy/template rw,
+  network tcp,
+}
